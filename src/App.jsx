@@ -1,11 +1,14 @@
+import Header from "./components/Header"
+import Main from "./components/Main"
+
 function App() {
   return (
     <div>
-      <header>My first react project</header>
+      <Header />
 
-      <main>
-        <section>here we goooo</section>
-      </main>
+      <Main />
+
+
 
       <footer>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
